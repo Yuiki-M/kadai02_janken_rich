@@ -1,0 +1,35 @@
+
+/* headerの装飾 */
+h1{
+    font-size: 32px;
+    background-color: #b4d89d;
+    text-align: center;
+}
+p{
+    font-size: 20px;
+    text-align: center;
+}
+
+
+/* キャラクター画像の装飾 */
+
+.character{
+    text-align: center;
+}
+.namakemono_top{
+    width: 50%;
+    
+}
+
+
+/* 記録ボタンもやもやボタンの装飾 */
+button.kiroku {
+    font-size: 20px;
+    background-color: #b4d89d;
+}
+
+.moyamoya{
+    font-size: 20px;
+    background-color: #b4d89d;
+}
+

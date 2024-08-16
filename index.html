@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+<!-- CSSを参照させる -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<!-- 作りたいサイトのトップページ 
+ 1. タイトルがあって、真ん中にキャラクターがいて、その下に記録ボタンともやもやボタンがある-->
+
+ <header>
+<!-- アプリタイトル -->
+<h1>食べ活ちゃん</h1>
+<p>食べるのがこわい気持ちを記録してみよう！</p>
+ </header>
+
+<!-- キャラクターを挿入 -->
+<div class="character">
+<img src="./img/namakemono_normal.png" alt="" class="namakemono_top">
+<!-- passの書き方が違うのが画像挿入上のあるある問題 -->
+</div>
+
+<!-- 記録ボタンともやもやボタンを設置 -->
+<div class="button">
+<button class="kiroku">
+きろく
+</button>
+
+<button class="moyamoya">
+    もやもや
+    </button>
+</div>
+
+    <!-- GoogleからJqueryのソースコードを持ってくる-->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+<script src="js/jankenrich.js"></script>
+</body>
+</html>
